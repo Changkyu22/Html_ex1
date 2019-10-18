@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+/************************************Header***************************************/
+header{
+	width: 100%;
+	height: 67px;
+	background-image: url("../images/common/header.png");
+	background-repeat: repeat-x;
+	position: fixed;
+	top: 0px;
+	
+}
+
+.header_wrap{
+	width: 47.9166%;
+	height: 67px;
+	margin: 0 auto;
+	overflow: hidden;
+/* 	padding: 13px 0; */
+/* 	box-sizing: border-box; */
+}
+
+.header_logo{
+	margin-top: 13px;
+	float: left;
+}
+
+.header_nav{
+	float: left;
+	margin-left: 150px;
+}
+
+.header_nav > li {
+	float: left;
+	line-height: 67px;
+	margin-right: 15px;
+	font-weight: bold;
+	font-size: small;
+}
+
+.header_subnav {
+	float: right;
+}
+
+.header_subnav > li {
+	float: right;
+	line-height: 67px;
+	font-weight: normal;
+	font-size: 5px;
+	margin-left: 15px;
+}
+
+.header_wrap a {
+	color: white;
+}
+
+.header_wrap a:hover {
+	color: red;
+}
+
+/************************************Main***************************************/
+/* .main{ */
+/* 	clear: both; */
+/* 	width: 47.9166%; */
+/* 	height: 900px; */
+/* 	background-color: red; */
+/* 	margin: 0 auto; */
+/* 	margin-top: 127px; */
+/* } */
+/************************************Aside***************************************/
+
+.aside{
+	position: fixed;
+	top: 300px;
+	right: 0px;
+	padding: 10px;
+}
+/************************************Footer***************************************/
+footer{
+	width: 100%;
+	height: 132px;
+	margin-top: 80px;
+	background-image: url("../images/common/footer.gif");
+	background-repeat: repeat;
+}
+
+.footer_wrap{
+	width: 47.9166%;
+	height: 132px;
+	margin: 0 auto;
+	padding: 26px 0 44px 0;
+	font-weight: bold;
+	overflow: hidden;
+}
+
+.footer_logo{
+	margin-top: 8px;
+	float: left;
+}
+
+.footer_nav1{
+	float: left;
+	margin-top: 15px;
+	margin-left: 50px;
+	font-size: small;
+
+}
+
+.footer_nav1 > li{
+	float: left;
+/* 	color: #a9a9a9; */
+}
+
+.footer_nav2{
+	float: left;
+	margin-left: 50px;
+	font-size: 10px;
+}
+
+.footer_nav2 > li{
+	color: #a9a9a9;
+}
+
+.footer_blank{
+	margin-top: -30px;
+	float: right;
+}
+
+.footer_blank option, .footer_blank > select{
+	color: #a9a9a9;
+	background-color: #4a4a4a;
+}
+
+
+
+

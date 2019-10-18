@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link href="../css/reset.css" rel="stylesheet">
+	<link href="../css/layout.css" rel="stylesheet">
+	
 <meta charset="UTF-8">
 <title>Insert title here</title>
-	<style type="text/css">
+<style type="text/css">
 	
 		.top{
 			line-height: 50px;
@@ -77,19 +80,34 @@
 		
 	</style>
 </head>
-<body bgcolor="#EAE6DA">
-	<div class="top">	
-		<a href="../notice/choose.html">공지사항</a>
-		<a href="../qna/choose.html">QnA</a>
-		<a href="../member/login.html">LogIn</a>
-		<a href="../member/signup/form.html">SignUp</a>
-	</div>
-	
-	<hr>
-		<div class="notice">Notice</div>
+<body>
+			<header>
+				<div class="header_wrap">
+					<div class="header_logo">
+						<img alt="" src="../images/common/fnc.png">
+					</div>
+					<ul class="header_nav">
+						<li><a href="/Html_ex1/notice/choose.html">NOTICE</a></li>
+						<li><a href="/Html_ex1/qna/choose.html">QnA</a></li>
+						<li><a href="/Html_ex1/member/login.html">COMPANY</a></li>
+						<li><a href="/Html_ex1/member/signup/signup.html">AUDITION</a></li>
+					</ul>
+					<ul class="header_subnav">
+						<li><a href="">CN</a></li>
+						<li><a href="">JP</a></li>
+						<li><a href="">EN</a></li>
+						<li><a href="">KO</a></li>
+						<li><a href="">|</a></li>
+						<li><a href="">JOIN</a></li>
+						<li><a href="">LOGIN</a></li>
+					</ul>
+				</div>
+			</header>
+			
+			<div class="notice">Notice</div>
 		<table class="table">
 			<thead class="thead"><tr><th>NO</th><th>SUBJECT</th><th>NAME</th><th>DATE</th><th>HIT</th></tr></thead>
-			<tr><td class="no">1</td><td class="subject"><a href="https://www.fncent.com/b/notice/41634">엔플라잉(N.Flying) 6TH MINI ALBUM [야호(夜好)] 공개 사진 첨부파일 </a></td><td class="name">관리자</td><td class="date">2019-10-16</td><td class="hit">513</td></tr>
+			<tr><td class="no">1</td><td class="subject" style="color: black;"><a href="https://www.fncent.com/b/notice/41634">엔플라잉(N.Flying) 6TH MINI ALBUM [야호(夜好)] 공개 사진 첨부파일 </a></td><td class="name">관리자</td><td class="date">2019-10-16</td><td class="hit">513</td></tr>
 			<tr><td class="no">2</td><td class="subject">[안내] Tony’s 1st Fan Meeting ‘Under the Blue Sky’ 쌀 화환 설치 신청 안내</td><td class="name">관리자</td><td class="date">2019-10-16</td><td class="hit">77</td></tr>
 			<tr><td class="no">3</td><td class="subject">[콘서트] N.Flying FLY HIGH PROJECT NOTE 5.야호(夜好) 사진 첨부파일</td><td class="name">관리자</td><td class="date">2019-10-16</td><td class="hit">545</td></tr>
 			<tr><td class="no">4</td><td class="subject">[안내] 배우 정유진 tvN ‘유령을 잡아라’ 출연 안내 사진 첨부파일</td><td class="name">관리자</td><td class="date">2019-10-16</td><td class="hit">212</td></tr>
@@ -112,8 +130,38 @@
 				</td>
 			</tr>
 		</table>
-			
 		</table>
+			
+		<section class="main"></section>
+		
+		
+			<footer>
+		<div class="footer_wrap">
+			<div class="footer_logo">
+				<img alt="" src="../images/common/foot.png">
+			</div>
+			<ul class="footer_nav1">
+				<li><a href="" style="color: #a9a9a9;">개인정보취급방침 |&nbsp;</a></li>
+				<li><a href="" style="color: #a9a9a9;">이용약관 |&nbsp;</a></li>
+				<li><a href="" style="color: #a9a9a9;">고객센터/문의하기 (Customer Service)</a></li>			
+			</ul>
+			<ul class="footer_nav2">
+				<li>&nbsp;</li>
+				<li>서울시 강남구 청담동 111 (주) FNC ENTERTAINMENT  | 	TEL. 02) 517-5426   |  FAX. 02) 518-5428</li>
+				<li>COPYRIGHT © 2014 FNCENT.COM ALL RIGHT RESERVED</li>
+			</ul>
+			<div class="footer_blank">
+				<select>
+					<option>FNC KONGDOM SITE</option>
+					<option>FNC STORE</option>
+					<option>FNC JAPAN</option>
+					<option>FNC FACEBOOK</option>
+					<option>ACADEMY</option>
+				</select>
+			</div>
+		</div>
+	</footer>
+		
 	<a href="/Html_ex1/notice/action/view.html">글보기</a>
 	<a href="/Html_ex1/notice/write/write.html">글쓰기</a>
 </body>
